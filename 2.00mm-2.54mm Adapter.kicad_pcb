@@ -465,6 +465,38 @@
     )
   )
 
+  (gr_poly
+    (pts
+      (xy 127.5 99.5)
+      (xy 126.5 100)
+      (xy 127.5 100.5)
+    )
+
+    (stroke (width 0.15) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 35976ab7-e318-41b8-b53c-f68e77d9f4e1))
+  (gr_poly
+    (pts
+      (xy 135.5 92.5)
+      (xy 136.5 92)
+      (xy 135.5 91.5)
+    )
+
+    (stroke (width 0.15) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 47ac211a-a361-4a4e-98d6-99339d05fb62))
+  (gr_poly
+    (pts
+      (xy 135.5 100.5)
+      (xy 136.5 100)
+      (xy 135.5 99.5)
+    )
+
+    (stroke (width 0.15) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 5aabf168-b724-4147-9d3c-ea1f11e8a55d))
+  (gr_poly
+    (pts
+      (xy 127.5 91.5)
+      (xy 126.5 92)
+      (xy 127.5 92.5)
+    )
+
+    (stroke (width 0.15) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 7b8f8041-1ac2-4df5-993b-a7c99289c7cc))
   (gr_arc (start 141.5 69.5) (mid 142.207107 69.792893) (end 142.5 70.5)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 585ca0d3-78ac-4a8a-b9a7-89ed3e8c82a8))
   (gr_line (start 120 122.5) (end 141.5 122.5)
@@ -481,6 +513,39 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp d7672503-0132-4302-b836-95fbb512150d))
   (gr_line (start 119 70.5) (end 119 121.5)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp fac193fe-d36b-48b2-b9d0-ca577c2525b3))
+  (gr_text "2.54mm" (at 127 96 90) (layer "F.SilkS") (tstamp 3ad659ed-29d6-488f-8b6d-520042488d17)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "2.00mm" (at 136 96 270) (layer "F.SilkS") (tstamp 847e612a-7b16-4bff-b708-eb67299a90f7)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (dimension (type aligned) (layer "Cmts.User") (tstamp 1018725f-0547-417a-9e2a-6fb5a30db013)
+    (pts (xy 119 69.5) (xy 119 122.5))
+    (height 2)
+    (gr_text "53.0000 mm" (at 115.85 96 90) (layer "Cmts.User") (tstamp 1018725f-0547-417a-9e2a-6fb5a30db013)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
+  )
+  (dimension (type aligned) (layer "Cmts.User") (tstamp d7a16ed8-537f-4871-b262-dd23b3092962)
+    (pts (xy 142.5 69.5) (xy 119 69.5))
+    (height 2)
+    (gr_text "23.5000 mm" (at 130.75 66.35) (layer "Cmts.User") (tstamp d7a16ed8-537f-4871-b262-dd23b3092962)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
+  )
+  (dimension (type aligned) (layer "Cmts.User") (tstamp f2577873-5575-4ed4-b8ab-3d0d5fdb0027)
+    (pts (xy 129.5 69.5) (xy 129.5 96))
+    (height -2.5)
+    (gr_text "26.5000 mm" (at 130.85 82.75 90) (layer "Cmts.User") (tstamp f2577873-5575-4ed4-b8ab-3d0d5fdb0027)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
+  )
 
   (segment (start 122.365 73.105) (end 121 71.74) (width 0.25) (layer "F.Cu") (net 1) (tstamp 84732ccb-446e-4df0-93c9-c264a32c2721))
   (segment (start 139 77) (end 135.105 73.105) (width 0.25) (layer "F.Cu") (net 1) (tstamp 9e88f3f5-eb69-46c5-bfb9-fb9b572637ae))
